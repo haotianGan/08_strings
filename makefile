@@ -1,2 +1,5 @@
 all:
-	gcc -o main main.c mystring.c
+	gcc -o main.pickle main.c mystring.c
+
+run:
+	./main.pickle
